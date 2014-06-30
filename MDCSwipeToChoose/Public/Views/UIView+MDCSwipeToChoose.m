@@ -199,7 +199,7 @@ const void * const MDCViewStateKey = &MDCViewStateKey;
                                    direction:(MDCSwipeDirection)direction {
     NSParameterAssert(direction != MDCSwipeDirectionNone);
 
-    CGFloat offset = threshold + 40.0gf;
+    CGFloat offset = threshold + 40.0f;
     switch (direction) {
         case MDCSwipeDirectionLeft:
             return CGPointMake(-offset, 0);
